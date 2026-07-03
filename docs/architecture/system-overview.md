@@ -18,7 +18,7 @@ The project aims to simulate the core functionality of enterprise SIEM solutions
 
 ## High-Level Architecture
 
-![Architecture Diagram](diagrams/architecture_system_diagram.png)
+<img src="../diagrams/architecture_system_diagram.png" alt="Architecture Diagram" height="450">
 
 
 ---
