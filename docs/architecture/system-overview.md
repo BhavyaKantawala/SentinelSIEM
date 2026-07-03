@@ -18,27 +18,9 @@ The project aims to simulate the core functionality of enterprise SIEM solutions
 
 ## High-Level Architecture
 
-Log Sources
-        │
-        ▼
-Collector
-        │
-        ▼
-Processor
-        │
-        ▼
-Detection Engine
-        │
- ┌──────┴────────┐
- ▼               ▼
-Logs         Alerts
-(MongoDB)    (MongoDB)
-        │
-        ▼
-Express REST API
-        │
-        ▼
-React Dashboard
+
+<img width="392" height="750" alt="image" src="https://github.com/user-attachments/assets/51c2bb67-31e7-4aa7-819e-820a70debaa2" />
+
 
 ---
 
