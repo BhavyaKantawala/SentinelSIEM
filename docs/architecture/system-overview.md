@@ -133,4 +133,3 @@ Features:
     <<<<<<< HEAD
 -   # Machine Learning anomaly detection
 -   Machine Learning anomaly detection
-    > > > > > > > feature/log-generator
