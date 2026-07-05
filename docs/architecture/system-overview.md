@@ -8,18 +8,17 @@ The project aims to simulate the core functionality of enterprise SIEM solutions
 
 ## Objectives
 
-- Understand SIEM architecture
-- Build modular cybersecurity software
-- Implement detection engineering concepts
-- Learn secure backend development
-- Demonstrate cloud-ready architecture
+-   Understand SIEM architecture
+-   Build modular cybersecurity software
+-   Implement detection engineering concepts
+-   Learn secure backend development
+-   Demonstrate cloud-ready architecture
 
 ---
 
 ## High-Level Architecture
 
 <img src="../diagrams/architecture_system_diagram.png" alt="Architecture Diagram" height="450">
-
 
 ---
 
@@ -31,9 +30,9 @@ Responsible for receiving or generating logs.
 
 Responsibilities:
 
-- Generate sample logs
-- Receive logs from different sources
-- Pass raw logs to the Processor
+-   Generate sample logs
+-   Receive logs from different sources
+-   Pass raw logs to the Processor
 
 ---
 
@@ -43,9 +42,9 @@ Converts raw log text into structured JSON.
 
 Responsibilities:
 
-- Parse logs
-- Normalize fields
-- Validate log format
+-   Parse logs
+-   Normalize fields
+-   Validate log format
 
 ---
 
@@ -55,9 +54,9 @@ Analyzes structured logs using security rules.
 
 Responsibilities:
 
-- Detect brute force attacks
-- Detect suspicious logins
-- Generate alerts
+-   Detect brute force attacks
+-   Detect suspicious logins
+-   Generate alerts
 
 ---
 
@@ -67,10 +66,10 @@ Stores processed logs and alerts.
 
 Collections:
 
-- logs
-- alerts
-- rules
-- users
+-   logs
+-   alerts
+-   rules
+-   users
 
 ---
 
@@ -96,11 +95,11 @@ Allows analysts to monitor events.
 
 Features:
 
-- Dashboard
-- Log Viewer
-- Alert Viewer
-- Analytics
-- Rule Management
+-   Dashboard
+-   Log Viewer
+-   Alert Viewer
+-   Analytics
+-   Rule Management
 
 ---
 
@@ -126,9 +125,12 @@ Features:
 
 ## Future Enhancements
 
-- Docker deployment
-- Kubernetes support
-- AWS CloudTrail ingestion
-- Sigma rule compatibility
-- Threat Intelligence integration
-- Machine Learning anomaly detection
+-   Docker deployment
+-   Kubernetes support
+-   AWS CloudTrail ingestion
+-   Sigma rule compatibility
+-   Threat Intelligence integration
+    <<<<<<< HEAD
+-   # Machine Learning anomaly detection
+-   Machine Learning anomaly detection
+    > > > > > > > feature/log-generator
